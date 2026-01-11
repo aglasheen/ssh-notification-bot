@@ -20,7 +20,7 @@ This script monitors the `/var/log/auth.log` file for SSH login events (successf
 To run the script, use Docker Compose:
 
 ```bash
-docker-compose up -d --build
+docker compose up -d --build
 ```
 
 This will build the Docker image and run the container in the background. The script will then start monitoring the log file and sending notifications to your Discord webhook.
